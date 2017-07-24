@@ -1,7 +1,7 @@
 # MIS-402-Database-Management-SQL-
 
-#//Examples & formats from http://www.w3schools.com/sql/default.asp
-
+#Examples & formats from http://www.w3schools.com/sql/default.asp
+#October 27,2016
 
 CREATE TABLE CUSTOMERS
 (
@@ -56,5 +56,9 @@ SELECT CustomerName
 FROM CUSTOMERS
 where CustomerState = CA, WA
 ORDER BY CustomerPostalCode DESC
+
+
+
+
 
 
