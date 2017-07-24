@@ -57,6 +57,46 @@ FROM CUSTOMERS
 where CustomerState = CA, WA
 ORDER BY CustomerPostalCode DESC
 
+#November 8, 2016
+#Examples & formats from http://www.w3schools.com/sql/default.asp
+
+CREATE TABLE TUTOR
+(
+TutorID int NOT NULL,
+CertDate varchar(255),
+Status varchar(255),
+INSERT INTO TUTOR(TutorID, CertDate, Status)
+VALUES('100','1/05/2015','Active');
+VALUES('101','1/05/2015','Temp Stop');
+VALUES('102','1/05/2015','Dropped');
+VALUES('103','5/22/2015','Active');
+VALUES('104','5/22/2015','Active');
+VALUES('105','5/22/2015','Temp Stop');
+VALUES('106','5/22/2015','Active');
+);
+
+
+CREATE TABLE STUDENT
+(
+StudentID int NOT NULL,
+StudentRead int NOT NULL,
+INSERT INTO STUDENT(StudentID, StudentRead)
+VALUES('3000','2.3');
+VALUES('3001','5.6');
+VALUES('3002','1.3');
+VALUES('3003','3.3');
+VALUES('3004','2.7');
+VALUES('3005','4.8');
+VALUES('3006','7.8');
+VALUES('3007','1.5');
+);
+
+
+
+
+
+
+
 
 
 
